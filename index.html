@@ -22,8 +22,6 @@
 			</a-entity>
 		</a-scene>
 	<script>
-		//Multi Markers WebAR-AR.js and Aframe - Playing the Archive - Connected Environment CASA-UCL
-
 		//Global Variable
 		var markersURLArray=[];
 		var markersNameArray=[];
@@ -66,7 +64,7 @@
 					var textEl = document.createElement('a-entity');
 					
 					textEl.setAttribute('id','text');
-					textEl.setAttribute('text',{color: 'red', align: 'center', value:markersNameArray[k], width: '5.5'});
+					textEl.setAttribute('text',{color: 'green', align: 'center', value:markersNameArray[k], width: '3.5'});
 					textEl.object3D.position.set(0, 0.7, 0);
 					textEl.object3D.rotation.set(-90, 0, 0);
 
